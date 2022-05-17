@@ -7,16 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D7139472833D65100A46F20 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7139462833D65100A46F20 /* ProfileViewModel.swift */; };
+		2D7139492833D69900A46F20 /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7139482833D69900A46F20 /* ProfileModel.swift */; };
 		2DCDBA282832F21100795489 /* SwUi_ProfileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCDBA272832F21100795489 /* SwUi_ProfileApp.swift */; };
-		2DCDBA2A2832F21100795489 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCDBA292832F21100795489 /* ContentView.swift */; };
+		2DCDBA2A2832F21100795489 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCDBA292832F21100795489 /* ProfileView.swift */; };
 		2DCDBA2C2832F21300795489 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DCDBA2B2832F21300795489 /* Assets.xcassets */; };
 		2DCDBA2F2832F21300795489 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DCDBA2E2832F21300795489 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D7139462833D65100A46F20 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		2D7139482833D69900A46F20 /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
 		2DCDBA242832F21100795489 /* SwUi_Profile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwUi_Profile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DCDBA272832F21100795489 /* SwUi_ProfileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwUi_ProfileApp.swift; sourceTree = "<group>"; };
-		2DCDBA292832F21100795489 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2DCDBA292832F21100795489 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		2DCDBA2B2832F21300795489 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DCDBA2E2832F21300795489 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -32,6 +36,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D7139432833D1AA00A46F20 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2DCDBA292832F21100795489 /* ProfileView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2D7139442833D37E00A46F20 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2D7139462833D65100A46F20 /* ProfileViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2D7139452833D38500A46F20 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2D7139482833D69900A46F20 /* ProfileModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		2DCDBA1B2832F21100795489 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +79,10 @@
 		2DCDBA262832F21100795489 /* SwUi_Profile */ = {
 			isa = PBXGroup;
 			children = (
+				2D7139432833D1AA00A46F20 /* View */,
+				2D7139442833D37E00A46F20 /* ViewModel */,
+				2D7139452833D38500A46F20 /* Model */,
 				2DCDBA272832F21100795489 /* SwUi_ProfileApp.swift */,
-				2DCDBA292832F21100795489 /* ContentView.swift */,
 				2DCDBA2B2832F21300795489 /* Assets.xcassets */,
 				2DCDBA2D2832F21300795489 /* Preview Content */,
 			);
@@ -137,8 +167,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCDBA2A2832F21100795489 /* ContentView.swift in Sources */,
+				2D7139472833D65100A46F20 /* ProfileViewModel.swift in Sources */,
+				2DCDBA2A2832F21100795489 /* ProfileView.swift in Sources */,
 				2DCDBA282832F21100795489 /* SwUi_ProfileApp.swift in Sources */,
+				2D7139492833D69900A46F20 /* ProfileModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
